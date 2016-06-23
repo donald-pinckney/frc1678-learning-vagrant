@@ -64,6 +64,9 @@ sudo pip3 install slycot -q
 # Install misc.
 sudo apt-get -yq install htop
 
+# Update CA Certificates
+sudo update-ca-certificates -f
+
 # Switch back to root. Probably doesn't matter, but it is symmetric.
 sudo su
 export HOME=$oldHome
