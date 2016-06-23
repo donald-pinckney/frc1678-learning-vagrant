@@ -10,9 +10,9 @@ sudo apt-add-repository -y ppa:wpilib/toolchain
 sudo apt-get -yq update
 
 # Setup vimrc
-git clone git://github.com/amix/vimrc.git vim_runtime
-sh vim_runtime/install_basic_vimrc.sh
-rm -rf vim_runtime
+wget -qO- https://raw.githubusercontent.com/amix/vimrc/master/vimrcs/basic.vim > ~/.vimrc
+sudo chmod 664 ~/.vimrc
+sudo chown vagrant ~/.vimrc
 
 # Install Java 8, for Bazel
 sudo apt-get -yq install openjdk-8-jdk
