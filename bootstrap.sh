@@ -59,11 +59,11 @@ sudo apt-get -yq install python3-numpy python3-scipy python3-matplotlib
 sudo apt-get -yq install python3-pip
 
 # Install slycot dependencies
-sudo apt-get -yq install gfortran
-sudo apt-get -yq install liblapack-dev
+# sudo apt-get -yq install gfortran
+# sudo apt-get -yq install liblapack-dev
 
 # Install slycot
-sudo pip3 install slycot -q
+# sudo pip3 install slycot -q
 
 # Install misc.
 sudo apt-get -yq install htop
