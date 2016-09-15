@@ -36,6 +36,7 @@ sudo apt-get -yq install frc-toolchain
 sudo apt-get -yq install clang libicu-dev
 
 # Install Swift
+mkdir ~/bin
 swiftURL="https://swift.org/builds/swift-3.0-GM-CANDIDATE/ubuntu1510/swift-3.0-GM-CANDIDATE/swift-3.0-GM-CANDIDATE-ubuntu15.10.tar.gz"
 swiftFile=$(basename $swiftURL)
 swiftDir="${swiftFile/.tar.gz/}"
